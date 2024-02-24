@@ -23,7 +23,20 @@ function checkVersions(requiredNodeVersion, requiredNpmVersion) {
   } else {
     console.log('npm version check passed');
   }
+
+  // Check NODE_ENV is set
+  checkNodeEnv();
+}
+
+// Function to check NODE_ENV environment variable
+function checkNodeEnv() {
+  const nodeEnv = process.env.NODE_ENV;
+  if (!nodeEnv) {
+    console.warn('Warning: NODE_ENV is not set. It is recommended to set this variable to "development", "production", or "test".');
+  } else {
+    console.log(`NODE_ENV is set to ${nodeEnv}.`);
+  }
 }
 
 // Example usage
-checkVersions('v14.0.0', '6.0.0');
+checkVersions('v18.0.0', '6.0.0');
