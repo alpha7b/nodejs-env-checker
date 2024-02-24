@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const execSync = require('child_process').execSync;
 
 // Function to check the versions of Node.js and npm against required versions
