@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const execSync = require('child_process').execSync;
 
 // Function to check the versions of Node.js and npm against required versions
@@ -23,9 +22,6 @@ function checkVersions(requiredNodeVersion, requiredNpmVersion) {
   } else {
     console.log('npm version check passed');
   }
-
-  // Check NODE_ENV is set
-  checkNodeEnv();
 }
 
 // Function to check NODE_ENV environment variable
@@ -37,9 +33,6 @@ function checkNodeEnv() {
     console.log(`NODE_ENV is set to ${nodeEnv}.`);
   }
 }
-
-// Example usage
-checkVersions('v18.0.0', '6.0.0');
 
 module.exports = {
   checkVersions,
