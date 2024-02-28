@@ -1,8 +1,8 @@
 {
   "name": "nodejs-env-checker",
-  "version": "1.0.5",
-  "description": "",
-  "main": "envChecker.js",
+  "version": "1.0.3",
+  "description": "A simple tool to check nodejs development environment",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "semantic-release": "^23.0.2"
   }
 }
