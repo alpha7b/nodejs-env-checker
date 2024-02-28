@@ -7,13 +7,17 @@
     "test": "jest",
     "semantic-release": "semantic-release"
   },
-  "keywords": [],
+  "keywords": [
+    "Node.js",
+    "environment check",
+    "development tool",
+    "dotenv",
+    "configuration"
+  ],
   "author": "github.com/alpha7b",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5"
-  },
-  "devDependencies": {
+    "dotenv": "^16.4.5",
     "semantic-release": "^23.0.2",
     "@semantic-release/commit-analyzer": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
