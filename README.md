@@ -19,17 +19,26 @@ You can install `nodejs-env-checker` globally on your system via npm:
 
 This allows you to run `nodejs-env-checker` from anywhere in your terminal.
 
-## Usage
+## Usage locally
 
 After installing, you can run `nodejs-env-checker` by simply typing:
 
-    nodejs-env-checker
+    node useEnvChecker
 
 By default, `nodejs-env-checker` checks for pre-defined version requirements. You can customize these requirements by passing parameters:
 
     nodejs-env-checker --node v14.0.0 --npm 6.0.0
 
 Replace `v14.0.0` and `6.0.0` with the required Node.js and npm versions for your project.
+
+## Usage in code
+
+    // checkEnv.js
+    const envChecker = require('nodejs-env-checker');
+    
+    // call the env-checker funcion
+    envChecker.checkVersions();
+    envChecker.checkNodeEnv();
 
 ## Contributing
 
