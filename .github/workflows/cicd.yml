@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '.github/workflows/cicd.yml'
-      - 'README.md'
+    # paths-ignore:
+    #   - '.github/workflows/cicd.yml'
       
 jobs:
   publish:
@@ -28,14 +27,9 @@ jobs:
       # - name: Build
       #   run: npm run build
         
-      # - name: Test
-      #   run: npm run test
+      - name: Test
+        run: npm run test
       
-      # - name: Publish
-      #   run: npm publish
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Semantic Release
         run: npx semantic-release
         env:
