@@ -2,7 +2,7 @@
   "name": "nodejs-env-checker",
   "version": "0.0.0-semantically-released",
   "description": "A simple tool to check nodejs development environment",
-  "main": "envChecker.js",
+  "main": "./src/envChecker.js",
   "scripts": {
     "test": "jest",
     "semantic-release": "semantic-release"
