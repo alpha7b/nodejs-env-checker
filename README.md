@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/alpha7b/nodejs-env-checker/actions/workflows/cicd.yml/badge.svg)
+
 # nodejs-env-checker
 
 `nodejs-env-checker` is a simple CLI tool designed to help developers ensure their development environment meets the specified version requirements for Node.js and npm. It checks the current versions of Node.js and npm against the required versions and provides feedback.
