@@ -6,7 +6,8 @@ on:
       - main
     paths-ignore:
       - '.github/workflows/cicd.yml'
-
+      - 'README.md'
+      
 jobs:
   publish:
     runs-on: ubuntu-latest
