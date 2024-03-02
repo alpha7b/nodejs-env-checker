@@ -13,7 +13,7 @@
 
 ## Installation
 
-You can install `nodejs-env-checker` globally on your system via npm:
+We have published our tool to [npmjs](https://www.npmjs.com/package/nodejs-env-checker). You can install `nodejs-env-checker` globally on your system via npm:
 
     npm install -g nodejs-env-checker
 
