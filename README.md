@@ -27,7 +27,7 @@ After installing, you can run `nodejs-env-checker` by simply typing:
 
 By default, `nodejs-env-checker` checks for pre-defined version requirements. You can customize these requirements by passing parameters:
 
-    nodejs-env-checker --node v14.0.0 --npm 6.0.0
+    useEnvChecker --node v14.0.0 --npm 6.0.0
 
 Replace `v14.0.0` and `6.0.0` with the required Node.js and npm versions for your project.
 
