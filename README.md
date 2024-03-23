@@ -40,6 +40,10 @@ Replace `v14.0.0` and `6.0.0` with the required Node.js and npm versions for you
     envChecker.checkVersions();
     envChecker.checkNodeEnv();
 
+## Todo
+
+Check more env
+
 ## Contributing
 
 Contributions are welcome! If you have a suggestion or improvement, please feel free to fork the repository and submit a pull request.
